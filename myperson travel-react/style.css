@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Inter;
+    margin: auto;
+}
+
+nav{
+    display: flex;
+    background-color: #F55A5A;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 14.46px;
+    
+}
+
+.world-icon {
+    height: 24px;
+    width: 24px;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+.card-display {
+    display: flex;
+    flex-direction: column;
+}
+.main-card{
+    margin: 30px;
+    display: flex;
+}
+.main{
+    display: flex;
+    align-items: left;
+    column-gap: 20;
+    margin: 30px;
+}
+.kyoto{
+   width: 175px;
+    font-size: 12px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+}
+
+.img-cover{
+    width: 80%;
+    height: 168px;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    
+}
+
+.location-description{
+    display: flex;
+    flex-direction: column;
+    align-items:right;
+}
+
+.geo-description{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    margin-bottom: 0px;
+}
+.icon {
+width: 8px;
+height: 10px;
+margin-right: 6px;
+}
+
+.japan{
+margin-right: 10px;
+font-size: 12px;
+font-weight: 400;
+line-height: 12px;
+letter-spacing: 0.17em;
+
+}
+
+a {
+font-size: 10px;
+font-weight: 400;
+text-decoration: underline;
+color: #918E9B;
+
+}
+
+.geo-text> h2{
+ margin-top: 0px;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+color: #2B283A;
+margin-bottom: 0px;
+}
+.geo-text > small{
+margin-top: 0px;
+font-size: 10px;
+font-weight: 700;
+line-height: 12px;
+color:#2B283A;
+}
+
+.text-description{
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+}
